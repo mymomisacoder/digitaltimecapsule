@@ -1,0 +1,175 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+    background: url('/resource/background.jpg') center center fixed;
+    background-size: cover; /* Ensures the image covers the whole screen */
+    padding-bottom: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444; /* Darker grey for contrast */
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #3a3a3a; /* Slightly lighter grey */
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+.section h1, .section h2 {
+    margin-bottom: 20px;
+}
+
+.section p {
+    margin-bottom: 20px;
+}
+
+/* Home Page Content Section */
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between image and text */
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 150px; /* Adjust the image size */
+    height: 150px;
+    border-radius: 50%; /* Circular image */
+    object-fit: cover;
+    border: 3px solid white; /* Optional border for better visibility */
+}
+
+.profile-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.profile-text p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #ddd; /* Slightly lighter text for readability */
+}
+
+
+/* Throwback Page Content Styling */
+/* Throwback Event Styling */
+.event {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    margin: 30px 0;
+    text-align: center;
+}
+
+.event img {
+    width: 300px; /* Adjust as needed */
+    height: 200px;
+    object-fit: cover; /* Keeps image aspect ratio */
+    border-radius: 8px;
+    margin-top: 10px; /* Adds space between text and image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Optional for better visuals */
+}
+
+.event .description {
+    max-width: 600px; /* Limit text width for readability */
+}
+
+.event .description h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.event .description p {
+    font-size: 1.2em;
+    color: #ddd; /* Lighter text for better contrast */
+}
+
+
+/* Adjust Links */
+a {
+    color: #4CAF50; /* Add some contrast for links */
+}
+
+a:hover {
+    color: #66ff66; /* Brighter green on hover */
+}
+
+
+/* New Year Resolution Content Section */
+.resolution-list {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.resolution-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.resolution-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.resolution-list li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #ddd;
+    line-height: 1.6;
+}
