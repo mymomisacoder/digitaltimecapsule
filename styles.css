@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: white;
-    background: url('/resource/background.jpg') center center fixed;
+    background: url('./resource/background.jpg') center center fixed;
     background-size: cover; /* Ensures the image covers the whole screen */
     padding-bottom: 20px;
 }
@@ -50,6 +50,15 @@ body {
 
 .nav-links a:hover {
     text-decoration: underline;
+}
+
+/* Adjust Links */
+a {
+    color: #4CAF50; /* Add some contrast for links */
+}
+
+a:hover {
+    color: #66ff66; /* Brighter green on hover */
 }
 
 /* Sections */
@@ -135,14 +144,7 @@ body {
 }
 
 
-/* Adjust Links */
-a {
-    color: #4CAF50; /* Add some contrast for links */
-}
 
-a:hover {
-    color: #66ff66; /* Brighter green on hover */
-}
 
 
 /* New Year Resolution Content Section */
